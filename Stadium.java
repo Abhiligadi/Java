@@ -4,12 +4,12 @@ class Stadium{
  public String palce;
  public String owner;
  
-   public Stadium(String Name,int SeatAvailable,String Palce,String Owner){
+   public Stadium(String nm,int sAvailable,String location,String ownr){
      System.out.println("Stadium object is created");
-      name=Name;
-	  seatAvailable=SeatAvailable;
-	  palce=Palce;
-	  owner=Owner;
+          name=nm;
+	  seatAvailable=sAvailable;
+	  palce=location;
+	  owner=ownr;
 	  System.out.println(name+"\n"+seatAvailable+"\n"+palce+"\n"+owner);
    }
       public static void main (String a[]){
