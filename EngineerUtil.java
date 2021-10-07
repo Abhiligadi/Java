@@ -2,9 +2,6 @@ class EngineerUtil
 {
 	public static void main(String a[])
 	{
-     Engineer eng0 = new Engineer();
-     eng0.solvingTheProgram("vijji");
-
      Engineer eng = new MechEngineer();
      eng.solvingTheProgram("Mech");
 	 
@@ -14,8 +11,8 @@ class EngineerUtil
 	  Engineer eng2 = new CsEngineer();
      eng2.solvingTheProgram("Cs");
 	 
-	  Engineer eng3 = new CivilEngineer();
-     eng3.solvingTheProgram("Civil");
+	  Engineer eng3 = new CivlEngineer();
+     eng3.solvingTheProgram("Civl");
     }
 
 }
