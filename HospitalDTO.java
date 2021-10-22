@@ -1,9 +1,9 @@
-class HospitalDTO{
+class Hospital1{
 
    public PatientDTO[] patients;
      private int index;
 	 
-       public HospitalDTO (int size)
+       public Hospital1 (int size)
 	   {
 		patients=new PatientDTO[size];
 		   
